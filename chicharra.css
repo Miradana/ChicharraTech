@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my code starts here*/
+body { font-family: 'Share Tech Mono', monospace;
+
+}
+header{
+display:flex;
+justify-content: space-around;
+padding: 10px;
+height: 80px;	
+
+}
+nav{
+display:flex;
+justify-content:space-between;
+height: 30px;
+padding: 20px;
+align-items: center;
+}
+
+nav a{
+	padding-left:20px;
+}
+
+.homeLogo {
+object-fit: contain;
+width: 35%;
+}
+
+button {
+height: 50px;
+padding: 10px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.Hero{
+height: 50vw;
+background-image: linear-gradient(#76999B,#ffffff21), url('HeroMockUp.png');
+background-color: white;
+padding: 5%;
+width: 100;
+object-fit: contain;
+}
+
+.Hero div{
+display:block;
+width: 400px;
+}
+.Hero div p{
+	color:white;
+	font-size: 20px;
+}
+
+h1 {
+font-size: 40px;
+color:#86F5F5;	
+}
+
+p {
+line-height: 2;	
+}
+
+.intro {
+	width: 60%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:20px;
+}
+h2, h3{
+	color:#11A2A2;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size:20px;
+}
+
+article{
+	width: 50%;
+}
+.project-card{
+	display:flex;
+	margin: 10%;
+	align-items: center;
+}
+.project-card img {
+	width: 50%;
+}
+
+.endNote {
+	width: 50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:20px;
+	margin-bottom: 20px;;
+}
+
+footer {
+padding: 30px;
+display: flex;
+background-color: #f9f9f9;
+}
+
+footer p {
+	width: 50%;
+	color: #5d5d5d;
+}
+
+footer div {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	height: 20px;
+
+	
+}
+
+footer div a img{
+	padding-right: 5px;
+	padding-left: 5px;
+	object-fit: contain;
+	width: 50px;
+}
